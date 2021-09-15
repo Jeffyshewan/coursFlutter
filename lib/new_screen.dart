@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 class NewScreen extends StatelessWidget {
-  const NewScreen({Key? key}) : super(key: key);
+  const NewScreen({Key? key, this.character}) : super(key: key);
+  final character;
 
   @override
   Widget build(BuildContext context) {
@@ -22,6 +23,7 @@ class NewScreen extends StatelessWidget {
         TextButton.styleFrom(primary: Theme.of(context).colorScheme.onPrimary);
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: true,
         title: Text("Books"),
         actions: <Widget>[
           TextButton(
@@ -36,7 +38,14 @@ class NewScreen extends StatelessWidget {
           )
         ],
       ),
-      body: Center(),
+      body:Container (
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: NetworkImage(character.image ?? "vide"),
+            fit: BoxFit.fitWidth,
+      ),
+      ),
+      ),
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
