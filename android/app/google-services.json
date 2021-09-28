@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "120515404109",
+    "project_id": "flutterm2-dcc79",
+    "storage_bucket": "flutterm2-dcc79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120515404109:android:c255e403116b5029891704",
+        "android_client_info": {
+          "package_name": "com.example.m2_cours"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120515404109-om3p7ouqapqejlikjp1s0ulbb3jouc7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwY6XZjeqcoOoV40BCnVNIfF8AMEJ_wVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120515404109-om3p7ouqapqejlikjp1s0ulbb3jouc7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
